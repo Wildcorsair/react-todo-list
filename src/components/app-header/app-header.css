@@ -1,0 +1,9 @@
+.title {
+  font-weight: 700;
+}
+
+.counters {
+  font-size: 1.2rem;
+  color: grey;
+  text-align: end;
+}
