@@ -28,7 +28,7 @@ export default class ItemStatusFilter extends Component {
     });
 
     return (
-      <div className="col-5 btn-group">
+      <div className="col btn-group">
           {buttons}
       </div>
     );

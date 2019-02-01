@@ -6,7 +6,7 @@ const SearchPanel = ({ onItemSearch }) => {
   const searchText = 'Type here to search';
 
   return (
-    <div className="col-7">
+    <div className="col">
       <input className="form-control" placeholder={ searchText } onChange={ onItemSearch }/>
     </div>
   );
