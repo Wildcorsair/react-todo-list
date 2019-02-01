@@ -2,15 +2,12 @@ import React from 'react';
 
 import './search-panel.css';
 
-const SearchPanel = () => {
+const SearchPanel = ({ onItemSearch }) => {
   const searchText = 'Type here to search';
-  const searchStyle = {
-    fontSize: '25px'
-  };
 
   return (
     <div className="col-7">
-      <input className="form-control" style={ searchStyle } placeholder={ searchText } />
+      <input className="form-control" placeholder={ searchText } onChange={ onItemSearch }/>
     </div>
   );
 };

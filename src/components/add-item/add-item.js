@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import './add-item.css';
+
 export default class AddItem extends Component {
 
   constructor() {
